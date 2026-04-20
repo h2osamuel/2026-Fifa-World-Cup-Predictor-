@@ -5,11 +5,11 @@ Date: 2026
 # Project Overview
 This project uses historical international soccer match data (1993–2022) to train a Random Forest Classifier that predicts the outcome of any match (Win / Draw / Lose from the home team's perspective). The trained model is then used to simulate the full 2026 FIFA World Cup tournament — group stage through the final — to predict the likely champion.
 
-# Requirements:
+# Requirements
 Python 
 Libraries: Pandas, Numpy, matplotlib, seaborn, sklearn
 
-# Dataset sources:
+# Dataset sources
 
 international_matches.csv — 23,921 international matches with FIFA rankings, scores, and team stats
 Groupes_-_V3.csv — 2026 FIFA World Cup group stage draw (32 teams, 8 groups)
@@ -18,16 +18,16 @@ Method: Multi-class classification (Win / Draw / Lose) → tournament bracket si
 # Summary
 This project built a complete machine learning pipeline to predict the 2026 FIFA World Cup winner:
 
-# Data Wrangling: 
+# Data Wrangling 
 We cleaned 23,921 historical international matches (1993–2022), removed leakage variables, high-missingness columns, and standardized team names.
 
-# EDA: 
+# EDA 
 We found that home advantage is significant (~5% higher win rate on home ground), and that FIFA ranking and FIFA points are strong predictors of match outcomes.
 
-# Model: 
+# Model 
 A Random Forest Classifier was selected as the final model, outperforming both the majority-class baseline and Logistic Regression on the test set.
 
-# Tournament Simulation: 
+# Tournament Simulation 
 We ran 1000 Monte Carlo simulations of the full 2026 World Cup bracket (group stage through final), giving each team a championship probability.
 
 # Key Findings
