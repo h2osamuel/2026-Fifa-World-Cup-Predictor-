@@ -1,6 +1,7 @@
 # 2026-Fifa-World-Cup-Predictor-
 Author: Samuel E. Cardenas
-Date: 2026
+
+Date: April 10, 2026
 
 # Project Overview
 This project uses historical international soccer match data (1993–2022) to train a Random Forest Classifier that predicts the outcome of any match (Win / Draw / Lose from the home team's perspective). The trained model is then used to simulate the full 2026 FIFA World Cup tournament — group stage through the final — to predict the likely champion.
