@@ -13,7 +13,9 @@ Libraries: Pandas, Numpy, matplotlib, seaborn, sklearn
 
 international_matches.csv — 23,921 international matches with FIFA rankings, scores, and team stats
 Groupes_-_V3.csv — 2026 FIFA World Cup group stage draw (32 teams, 8 groups)
-Method: Multi-class classification (Win / Draw / Lose) → tournament bracket simulation
+
+# Method
+Multi-class classification (Win / Draw / Lose) → tournament bracket simulation
 
 # Summary
 This project built a complete machine learning pipeline to predict the 2026 FIFA World Cup winner:
