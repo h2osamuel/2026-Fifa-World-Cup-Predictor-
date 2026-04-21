@@ -22,16 +22,16 @@ Multi-class classification (Win / Draw / Lose) → tournament bracket simulation
 This project built a complete machine learning pipeline to predict the 2026 FIFA World Cup winner:
 
 # Data Wrangling 
-We cleaned 23,921 historical international matches (1993–2022), removed leakage variables, high-missingness columns, and standardized team names.
+Cleaned 23,921 historical international matches (1993–2022), removed leakage variables, high-missingness columns, and standardized team names.
 
 # EDA 
-We found that home advantage is significant (~5% higher win rate on home ground), and that FIFA ranking and FIFA points are strong predictors of match outcomes.
+Found that home advantage is significant (~5% higher win rate on home ground), and that FIFA ranking and FIFA points are strong predictors of match outcomes.
 
 # Model 
 A Random Forest Classifier was selected as the final model, outperforming both the majority-class baseline and Logistic Regression on the test set.
 
 # Tournament Simulation 
-We ran 1000 Monte Carlo simulations of the full 2026 World Cup bracket (group stage through final), giving each team a championship probability.
+Ran 1000 Monte Carlo simulations of the full 2026 World Cup bracket (group stage through final), giving each team a championship probability.
 
 # Key Findings
 FIFA rank difference and FIFA points difference are the most important features for predicting match outcomes.
@@ -44,3 +44,6 @@ Draw prediction is inherently difficult in soccer and contributes to model error
 There is no handling of time based splitting thus leading to some data leakage.
 The usage of all international matches rather than just World Cup mathces leads to misrepresentation of World Cup patterns.
 The usage of each teams most recenet FIFA rank is from 2022, thus not properly representing for 2026.
+
+# Results
+Models tournament simulation returned Argentina going back to back and winning the 2026 World Cup! However, the monte carlo simulations returned Brazil winning 19.8% of the time and Belgium 10.3%
