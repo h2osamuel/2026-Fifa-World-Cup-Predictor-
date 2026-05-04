@@ -1,4 +1,4 @@
-# 2026-Fifa-World-Cup-Predictor-
+# 2026 Fifa World Cup Predictor
 Author: Samuel E. Cardenas
 
 Date: April 10, 2026
@@ -47,3 +47,6 @@ The usage of each teams most recenet FIFA rank is from 2022, thus not properly r
 
 # Results
 Models tournament simulation returned Argentina going back to back and winning the 2026 World Cup! However, the monte carlo simulations returned Brazil winning 19.8% of the time and Belgium 10.3%
+
+
+<img width="984" height="584" alt="download-7" src="https://github.com/user-attachments/assets/4ffe38c1-6523-49d5-b374-bc3c80d9d270" />
